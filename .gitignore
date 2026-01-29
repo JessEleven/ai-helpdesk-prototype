@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Virtual environments (si los usas)
+venv/
+env/
+
+# Ollama / modelos entrenasdos pesados
+# Si tu Modelfile es ligero puedes subirlo, si no, ignóralo
+ai/dataset/*.jsonl
+ai/dataset/*.xlsx
+
+# Logs y temporales
+*.log
+*.tmp
+
+# XAMPP / entorno local
+/public/uploads/
+*.cache
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
